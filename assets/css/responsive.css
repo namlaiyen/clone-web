@@ -1,0 +1,124 @@
+/* PC */
+@media (min-width: 49.333333333333336em) {
+    #header {
+        height: 46px !important;
+    }
+}
+/* Mobile and tablet */
+@media (max-width: 68.2em) {
+    .button {
+        padding: 13px 16px;
+    }
+    .contact-form .form-control {
+        padding: 14px;
+    }
+    .contact-section .text-part {
+        line-height: 2.1;
+    }
+    .footer p > a {
+        padding: 8px 0;
+        display: inline-block;
+    }
+    .social-media-icon .icons {
+        padding: 0 4px;
+    }
+}
+/* Mobile */
+@media (max-width: 49.266666666666666em) {
+    .s-full-width {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    /* Navigation bar */
+    #header {
+        overflow: hidden;
+    }
+    .search-button,
+    .search-icon {
+        display: none;
+    }
+    #header .mobile-menu-btn,
+    #header .mobile-menu {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav li a {
+        line-height: 46px;
+        padding-top: 0px;
+    }
+    #nav li {
+        padding: 0;
+        line-height: 43px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    #nav .subnav {
+        position: initial;
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+    #nav li:last-child:hover .subnav {
+        background-color: #333;
+    }
+    .subnav li a {
+        color: #fff !important;
+    }
+    .subnav li:hover a {
+        color: #000 !important;
+    }
+    .subnav a {
+        margin-left: 16px;
+    }
+    /* Slider */
+    .slider-text {
+        display: none;
+    }
+    /* Content section */
+    #content {
+        margin-bottom: 112px;
+    }
+    #content .content-section {
+        max-width: 93%;
+    }
+    /* Band section */
+    #content .band-members {
+        display: block;
+        padding-bottom: 44px;
+    }
+    #content .member-profile {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    /* Tour section */
+    .place-section {
+        display: block;
+    }
+    .place-section .place-info {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    /* Contact section */
+    .content-section .contact-section {
+        display: block;
+    }
+    .contact-section .text-part {
+        margin-bottom: 32px;
+        width: 100%;
+    }
+    .contact-section .insert-box {
+        width: 100%;
+    }
+    .contact-form .row {
+        display: block;
+    }
+    .contact-form .row .column-half {
+        width: 100%;
+    }
+}
